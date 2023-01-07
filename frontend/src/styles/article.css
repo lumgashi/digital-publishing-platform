@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800);
+
+.article-of-the-day__section {
+   margin: 1rem;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column !important;
+   height: auto;
+}
+
+.article-of-the-day__header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+.article-of-the-day__header h1 {
+   font-weight: 900;
+}
+
+.article-of-the-day__header button {
+   border-radius: 25px;
+   height: 2.7rem;
+   width: 6.3rem;
+   border: 0.5px solid var(--gray-color-01);
+   background-color: inherit;
+   letter-spacing: -0.1px;
+   font-size: 0.9rem;
+}
+
+.article-of-the-day__header button:hover {
+   transition: all 0.2s ease-in;
+   color: #fff;
+   background-color: #252626;
+}
+
+.card {
+   width: 100%;
+   margin: 1rem 0;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.4s;
+   border: none !important;
+}
+
+.card .card_image {
+   width: inherit;
+   height: inherit;
+   border-radius: 5px;
+}
+
+.card .card_image img {
+   width: inherit;
+   height: inherit;
+   border-radius: 5px;
+   object-fit: cover;
+}
+
+.card .card_title {
+   text-align: left;
+   padding-left: 15px;
+   font-weight: bold;
+   font-size: 1.3rem;
+   margin-top: -80px;
+   font-family: 'Sora';
+   font-weight: 900;
+   letter-spacing: 0.5px;
+   border-radius: 5px;
+}
+
+.card .card_title span {
+   text-align: left;
+   margin-left: 5px;
+   font-size: 1rem;
+   margin-top: -70px;
+   font-family: 'Sora';
+   font-weight: 900;
+}
+
+.title-white {
+   color: white;
+}
+
+.card:hover .card_title {
+   background-color: #25252594;
+   transition: all 0.3s ease-in;
+}
+
+@media (orientation: portrait) {
+   .card .card_title span {
+      display: none;
+   }
+}

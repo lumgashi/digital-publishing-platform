@@ -1,0 +1,93 @@
+.page-post__container {
+   margin: 2rem;
+}
+
+.page-post__header {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+.page-post__author {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   align-items: center;
+}
+
+.page-post__go-back {
+   border: none;
+   outline: none;
+   color: var(--gray-color-01);
+   background-color: inherit;
+   font-size: 1.6rem;
+}
+
+
+.page-post__bookmark {
+   width: 5rem;
+   height: 2rem;
+   border: 1px solid var(--gray-color-01);
+   color: var(--dark-text-01);
+   background-color: inherit;
+   font-size: 0.8rem;
+   border-radius: 8px;
+   font-weight: 500;
+}
+
+.page-post__bookmark:hover {
+   transition: all 0.2s ease-in;
+   color: #fff;
+   background-color: #252626;
+}
+
+.page-post__image {
+   width: 100%;
+   height: 50vh;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.page-post__image img {
+   width: 80%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 7px;
+}
+
+.page-post__body-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.page-post__body-post {
+   width: 80%;
+   font-family: 'Sora';
+   margin-top: 2rem;
+   font-weight: bolder;
+}
+
+.page-post__body-post p {
+   font-weight: 300;
+   font-family: 'Sora';
+   color: var(--gray-color-01);
+}
+
+
+
+@media (orientation: portrait) {
+   .page-post__image {
+      height: 20vh;
+   }
+
+   .page-post__image img {
+      width: 100%;
+      object-fit: cover;
+   }
+}

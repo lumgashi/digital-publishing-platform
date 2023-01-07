@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+.membership__section {
+   background-color: #3232320e;
+   margin: 1rem;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 0.7rem;
+   font-family: 'Vollkorn';
+   border-radius: 20px;
+}
+
+.membership__section-content {
+   flex: 3;
+   margin: 2rem 0;
+}
+
+.membership__section-content p {
+   color: var(--gray-color-01);
+}
+
+.membership__section-content button {
+   background-color: #32323237;
+   border: none;
+   outline: none;
+   height: 2.5rem;
+   width: 80%;
+   border-radius: 6px;
+}
+
+.membership__section-content button:hover {
+   background-color: #3232322c;
+   transition: all 0.2s ease-in;
+}
+
+.membership__section-image {
+   flex: 1;
+}
+
+.membership__section-image img {
+   width: 6rem;
+   height: 6rem;
+}
+
+.membership__section-image img:hover {
+   opacity: 0.8;
+   transition: all 0.1s ease-in;
+}

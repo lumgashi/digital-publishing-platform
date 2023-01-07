@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Readex+Pro:200,300,regular,500,600,700);
+
+.profile-widget--section {}
+
+.profile-widget--card {
+   margin: 1rem;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 0.7rem;
+   font-family: 'Readex Pro';
+}
+
+.profile-widget--profileImage {
+   flex: 1;
+   max-inline-size: 200px;
+}
+
+.profile-widget--profileImage img {
+   width: 4rem;
+   height: 4rem;
+   border-radius: 50%;
+}
+
+
+.profile-widget--userInfo {
+   flex: 3;
+   color: var(--gray-color-03);
+}
+
+.profile-widget--write {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.profile-widget--write {
+   font-weight: 600;
+   color: var(--dark-text-02);
+   text-transform: uppercase;
+}
+
+.profile-widget--button {
+   width: 5rem;
+   height: 2rem;
+   border: 1px solid var(--gray-color-01);
+   color: var(--dark-text-01);
+   background-color: inherit;
+   font-size: 0.8rem;
+   border-radius: 8px;
+   font-weight: 500;
+}
+
+.profile-widget--button:hover {
+   transition: all 0.2s ease-in;
+   color: #fff;
+   background-color: #252626;
+}

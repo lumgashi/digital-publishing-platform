@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Readex+Pro:200,300,regular,500,600,700);
+
+.suggest-author__section {
+   margin: 1rem;
+   padding: 1rem;
+   display: flex;
+   gap: 0.7rem;
+   font-family: 'Readex Pro';
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.suggest-author__image {
+   flex: 1;
+   max-inline-size: 40px;
+   padding: 0.3rem;
+}
+
+.suggest-author__image img {
+   width: 2.3rem;
+   height: 2.3rem;
+   border-radius: 50%;
+}
+
+.suggest-author__author {
+   width: 100%;
+   height: 3rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.suggest-author__authInfo {
+   margin-left: 1rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.suggest-author__authInfo span {
+   font-size: 0.7rem;
+}

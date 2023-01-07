@@ -1,0 +1,39 @@
+.topics__article {
+   margin: 1rem;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.topics__article h1 {
+   font-weight: 900;
+   font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+.topics__tags {
+   display: flex;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   width: 100%;
+}
+
+.topics__item {
+   scroll-snap-type: start;
+   display: flex;
+   margin: 0.5rem 1rem;
+   padding: 0.1rem 1rem;
+   cursor: pointer;
+   border-radius: 25px;
+   height: 1.8rem;
+   border: 0.5px solid var(--gray-color-01);
+   background-color: inherit;
+   letter-spacing: -0.1px;
+   font-size: 0.9rem;
+}
+
+
+.topics__item:hover {
+   transition: all 0.2s ease-in;
+   color: #fff;
+   background-color: #252626;
+}

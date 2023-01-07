@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Pridi:200,300,regular,500,600,700);
+
+.header__section {
+   width: 100%;
+   margin: 2rem 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 4rem;
+   gap: 2rem;
+   font-family: 'Vollkorn';
+   border-bottom: 1.2px solid var(--gray-color-03);
+   flex-shrink: 1;
+}
+
+.header__section-search {
+   display: flex;
+   flex: 0.75;
+   border: 1px solid blue;
+   height: 2.5rem;
+   display: flex;
+   align-items: center;
+   border: 1px solid #252525;
+   border-radius: 20px;
+   justify-content: space-around;
+   padding-left: 15px;
+}
+
+.header__section-search:focus-within {
+   border-radius: 8px;
+   transition: all 0.2s ease;
+}
+
+.header__section-search input {
+   border: none;
+   outline: none;
+   flex: 0.9;
+}
+
+.header__section-search span {
+   flex: 0.1;
+   font-size: 1.5rem;
+   color: #252525 !important;
+}
+
+.header__section-icons {
+   display: flex;
+   flex: 0.25;
+   font-size: 1.5rem;
+   gap: 0.7rem;
+   align-items: center;
+   color: #252525 !important;
+   justify-content: right;
+}
+
+.header__section-icons span,
+a {
+   color: #252525 !important;
+   cursor: pointer
+}
+
+/* .header__section-icons a {
+   color: #252525 !important;
+} */
+
+.header__section-profile img {
+
+   display: none;
+}
+
+
+@media (orientation: portrait) {
+   .header__section-icons {
+      gap: 0.2rem;
+      align-items: right;
+   }
+
+   .header__section-profile img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #252525;
+      display: block;
+   }
+
+   .header__section-search span {
+      font-size: 1rem;
+   }
+
+   .header__section-search input {
+      font-size: 1rem;
+   }
+}

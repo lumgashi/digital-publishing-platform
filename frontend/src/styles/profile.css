@@ -1,0 +1,86 @@
+.profile__col {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile__section {
+   width: 85%;
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.profile__img {
+   flex: 0.1;
+   padding: 1rem 1rem 1rem 0;
+}
+
+.profile__img img {
+   width: 6.6rem;
+   height: 6.6rem;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.profile__info {
+   flex: 0.9;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+}
+
+.profile__info span {
+   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+   font-weight: 350;
+}
+
+.profile__name {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.profile__name h3 {
+   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+   font-weight: 600;
+   color: #252525;
+}
+
+.profile__name button {
+   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+   height: 2rem;
+   border: 1px solid var(--gray-color-01);
+   color: var(--dark-text-01);
+   background-color: inherit;
+   font-size: 0.8rem;
+   border-radius: 8px;
+   font-weight: 500;
+   padding: 0.3rem;
+}
+
+.profile__submit-button {
+   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+   height: 2rem;
+   border: 1px solid var(--gray-color-01);
+   color: var(--dark-text-01);
+   background-color: inherit;
+   font-size: 0.8rem;
+   border-radius: 8px;
+   font-weight: 500;
+   padding: 0.3rem;
+}
+
+.profile__name button:hover {
+   transition: all 0.2s ease-in;
+   color: #fff;
+   background-color: #252626;
+}
+
+.profile__form,
+.profile__modal {
+   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+}
